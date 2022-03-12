@@ -1,0 +1,168 @@
+*{
+    margin: auto;
+}
+body{
+    background-color: white;
+}
+container{
+    
+}
+.headfile{
+background-color: black;
+width: 100vw;
+height: 100px;
+display: flex;
+
+
+}
+
+.contactsec ul{
+display:flex;
+gap: 20px;
+list-style: none;
+}
+.contactsec ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+.logo img{
+    width: 170px;
+    height: 90px;
+  
+}
+.navbar{
+background-color: orangered;
+width: 100vw;
+height: 50px;
+display: flex;
+align-items: center;
+
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    color: white;
+}
+
+.navbar ul li a{
+    color: white;
+    display: flex;
+    text-decoration: none;
+    
+}
+.navbar ul li a:hover{
+    color: rgb(14, 3, 1);
+    translate: 0.9s; ;
+}
+.contentsection img{
+
+width: 100vw;
+}
+.navbar ul li a::after{
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+/***footer section***/
+
+.footer
+{
+    background-color: rgb(58, 55, 55);
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    align-items: flex-start;
+}
+.firstsec{
+    display: flex;
+    background-color: brown;
+    width: 800px;
+    height: 300px;
+}
+
+.firstsec h2{
+    color: rgb(255, 102, 0);
+    text-align: center;
+}
+.firstsec ul{
+    align-content: flex-end;
+
+}
+
+.firstsec ul li {
+    display:flex;
+    color: white;
+    list-style: none;
+    
+}
+.firstsec ul li a {
+    color: white;
+    text-decoration: none;
+    
+   
+} 
+.inform ul{
+    color:white;
+    list-style: none;
+    
+}
+.inform ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-top: 10px;
+    
+}
+.secondpart.secondpart img{
+    margin-left: 115px;
+    
+}/*****last**/
+.last{
+    background-color: rgb(7, 7, 0);
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.inside{
+   display:flex;
+   align-content: flex-end;
+}
+   
+.inside ul{
+    display: flex;
+    align-content: center;
+    list-style: none;
+    gap: 20px;
+  
+   
+}
+.inside ul li a{
+    color: white;
+    text-decoration: none;
+    
+    
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .map{
+      margin-top: 20px;
+      display: flex;
+    align-items: center;
+    width: 100vw;
+  }
+    
